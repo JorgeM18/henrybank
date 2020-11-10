@@ -59,11 +59,12 @@ module.exports = {
             rest:{ 
                 method:"POST",
                 path:"/createUser" 
-            },
-            params:{
-                email:"email",
-                password: "string",
-            },
+			},
+			//TEMPORALMENTE INHABILITADOS
+            // params:{
+            //     email:"email",
+            //     password: "string",
+            // },
             handler: createUser
 		},
 
